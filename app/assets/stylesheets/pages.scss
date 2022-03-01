@@ -1,10 +1,12 @@
-// Place all the styles related to the pages controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: https://sass-lang.com/
-
 body {
-  background-color: #00ffff;
   letter-spacing: 2px;
+  background: rgb(35, 36, 0);
+  background: linear-gradient(
+    90deg,
+    rgba(35, 36, 0, 1) 0%,
+    rgba(114, 9, 121, 0.7091211484593838) 5%,
+    rgba(0, 213, 255, 0.616) 50%
+  );
 }
 
 .navbar-part {
@@ -12,20 +14,23 @@ body {
   justify-content: space-between;
 }
 
-
-.onur-img{
+.onur-img {
   border-radius: 50%;
 }
 
-a{
+a {
   text-decoration: none;
-  color:black;
+  color: black;
 }
 
-i{
-    padding-right: 8px;
+i {
+  padding-right: 8px;
 }
 
 a:hover {
-  color:#36454F;
+  color: #36454f;
+}
+
+.img-tech {
+  padding-right: 8px;
 }
