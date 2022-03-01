@@ -1,7 +1,31 @@
 // Place all the styles related to the pages controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: https://sass-lang.com/
+
+body {
+  background-color: #00ffff;
+  letter-spacing: 2px;
+}
+
 .navbar-part {
   display: flex;
   justify-content: space-between;
+}
+
+
+.onur-img{
+  border-radius: 50%;
+}
+
+a{
+  text-decoration: none;
+  color:black;
+}
+
+i{
+    padding-right: 8px;
+}
+
+a:hover {
+  color:#36454F;
 }

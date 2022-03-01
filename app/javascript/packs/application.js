@@ -7,9 +7,12 @@ import Rails from "@rails/ujs"
 import Turbolinks from "turbolinks"
 import "channels"
 import 'bootstrap';
+import { loadDynamicBannerText } from '../components/banner';
 
 Rails.start()
 Turbolinks.start()
 
+document.addEventListener('turbolinks:load', () => {
 
-console.log("hello");
+  loadDynamicBannerText();
+});
