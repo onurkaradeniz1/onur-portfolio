@@ -16,3 +16,14 @@ document.addEventListener('turbolinks:load', () => {
 
   loadDynamicBannerText();
 });
+
+
+
+const styles = [
+  'color: grey',
+  'background: black',
+  'font-size: 30px',
+  'padding: 10px',
+].join(';');
+
+console.log('%cWelcome :)', styles);

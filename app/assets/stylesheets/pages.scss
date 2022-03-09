@@ -55,3 +55,14 @@ a:hover {
 .inp{
   padding-bottom: 8px;
 }
+
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+  .main-img{
+    display: none;
+  }
+
+}
